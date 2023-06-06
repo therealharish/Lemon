@@ -13,11 +13,14 @@ const Home = () => {
             <Title title = {item.title} setActiveIndex = {setActiveIndex} index = {index}/>)}
             </div>
             <div className = "project-media">
-                {sample.map((item, index)=>{
-                    const isActive = index === activeIndex
-                    return <Media 
-                    url = {item.mediaUrl}
+                {sample.map(({mediaUrl}, index)=>{
+                    const isActive = index === activeIndex ? true : false;
+
+                    return (
+                    <Media 
+                    url = {mediaUrl}
                     active = {isActive}/>
+                    )
                 })}
             </div>
         </div>

@@ -5,8 +5,10 @@ const Media = ({url, active}) => {
     return ( 
         <div>
             {console.log(active)}
-            <img className = {active && "is-active"}
-                src = {url} alt = "sample"/>
+            <img 
+                className = {active ? "is-active" : undefined}
+                src = {url} 
+                alt = "sample"/>
         </div>
      );
 }
