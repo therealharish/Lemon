@@ -14,7 +14,7 @@ export default [
     },
     {
         title: "Orange",
-        mediaUrl: "https://images.unsplash.com/photo-1668548205372-1becd11b5641?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        mediaUrl: "https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     },
     {
         title: "Strawberry",

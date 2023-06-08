@@ -49,7 +49,7 @@ body {
 
         .project-title {
             transition: opacity 0.35s cubic-bezier(0.77, 0, 0.175, 1);
-            font-size: 80px;
+            font-size: 40px;
             color: #eee;
             font-weight: 300;
             z-index: 2;
@@ -79,11 +79,6 @@ body {
         max-height: 60%;
         object-fit: contain;
         pointer-events: none;
-
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-
 
         &.is-active {
             opacity: 1;
