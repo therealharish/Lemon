@@ -40,7 +40,6 @@ const Media = ({url, active, x, y}) => {
                     transform: `translate(${x-width/2}px, ${y-height/2}px)`
                 }}
             />
-
         </div>
      );
 }
